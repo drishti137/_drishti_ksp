@@ -1,0 +1,36 @@
+.profile_pic{
+    background-image:url(DRISHTI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    height: 15vw;
+    width:15vw;
+    border: 3px solid palevioletred;
+    border-radius:100px;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: left;
+    z-index: 1;
+}
+.icons{
+    padding: 10px 30px;
+    border-bottom-left-radius: 18-x;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+.icons ul li a{
+    text-decoration: none;
+}
+.icons li a:hover{
+    opacity: 0.5;
+}
+
+
+
